@@ -43,8 +43,6 @@ background-color: #fff;
 }
 
 
-
-
 /* Navigation Bar */
 
 .navbar{
@@ -94,17 +92,6 @@ margin-left: 2%;
   position: relative;
 }
 
-@media (max-width: 991px){
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-
-  #title .container-fluid{
-    text-align: center;
-  }
-}
-
 /* Features Section */
 
 #features{
@@ -112,10 +99,67 @@ background-color:#fff;
 position: relative;
 }
 
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+
+}
+
+.price-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
 
 .feature-title{
   font-size: 1.5rem;
 }
+
+@media (max-width: 991px){
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+.big-heading{
+  font-size: 5rem;
+}
+.download-botton{
+  font-size: 2.5rem;
+}
+
+.navbar{
+padding: 3% 5% 0;
+}
+
+.features-box, .feature-title, .footer-icons, .register-botton, p, h2, h3{
+  font-size: 2.5rem;
+}
+
+em{
+  font-size: 1.7rem;
+}
+
+#pricing{
+  padding:5% 0;
+}
+.pricing-column{
+  padding: 3% 3%;
+}
+
+}
+
 
 /* Download Buttons */
 
@@ -167,22 +211,7 @@ position: relative;
 }
 
 
-/* Pricing Section */
 
-#pricing{
-  padding: 100px;
-
-}
-
-.price-text{
-  font-size:3rem;
-  line-height:1.5;
-}
-
-.pricing-column{
-  padding: 3% 2%;
-
-}
 
 /* Call to Action */
 #cta{
